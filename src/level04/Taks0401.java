@@ -1,0 +1,12 @@
+package level04;
+
+public class Taks0401 {
+    public static void main(String[] args) {
+        String quote = "Я никогда не буду работать за копейки. Амиго";
+        int i = 1;
+        while (i <= 100) {
+            System.out.println(quote);
+            i++;
+        }
+    }
+}
