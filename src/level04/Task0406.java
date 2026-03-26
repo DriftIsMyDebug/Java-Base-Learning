@@ -14,6 +14,6 @@ public class Task0406 {
             if (s.equals("enough")) break;
             System.out.println(s);
         }
-
+        console.close();
     }
 }

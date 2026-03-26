@@ -23,7 +23,6 @@ public class Task0403 {
             }
         }
         System.out.println(sum);
-        System.out.println("Hello World and eveyOne!!!!");
-
+        scanner.close();
     }
 }

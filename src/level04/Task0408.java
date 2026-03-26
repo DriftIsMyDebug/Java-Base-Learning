@@ -25,5 +25,6 @@ public class Task0408 {
         } else {
             System.out.println(max);
         }
+        console.close();
     }
 }

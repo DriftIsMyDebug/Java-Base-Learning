@@ -24,5 +24,6 @@ public class Task0410 {
             }
         }
         System.out.println(secondMin);
+        console.close();
     }
 }

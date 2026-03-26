@@ -18,5 +18,6 @@ public class Task0409 {
             }
         }
         System.out.println(min);
+        console.close();
     }
 }
