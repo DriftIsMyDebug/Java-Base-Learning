@@ -1,0 +1,24 @@
+package level05;
+
+// Потренируйся определять и изменять значения переменных во время выполнения программы:
+//
+// Поставь break point напротив вызова метода println и запусти программу в режиме отладки.
+// После остановки нажми F8 ровно 9 раз.
+// Посмотри, какое значение сейчас у переменной correction и установи такое же значение переменной fahrenheit (в окне отладки).
+// Нажми F8 еще 6 раз.
+// Посмотри текущее значение переменной correction и присвой это значение полю result (измени исходный код).
+//
+// В итоге в классе Solution должно быть только одно изменение: поле result должно быть инициализировано при объявлении.
+
+public class Task0520 {
+    public static int result = 105;
+
+    public static void main(String[] args) {
+        byte correction = Byte.MAX_VALUE;
+        for (double farenheit = -459.67; farenheit < 451; farenheit += 40) {
+            correction *= farenheit;
+            System.out.println(correction);
+        }
+    }
+
+}
