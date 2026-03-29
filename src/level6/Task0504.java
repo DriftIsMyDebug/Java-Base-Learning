@@ -1,4 +1,4 @@
-package level05;
+package level6;
 
 //Реализовать метод main(String[]), в котором нужно скопировать содержимое массивов firstArray и secondArray в один массив resultArray.
 //Массив firstArray должен быть в начале нового массива resultArray, а secondArray — после него.

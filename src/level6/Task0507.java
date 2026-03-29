@@ -1,4 +1,4 @@
-package level05;
+package level6;
 //
 //В этой задаче тебе нужно:
 //

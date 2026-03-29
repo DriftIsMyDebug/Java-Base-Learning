@@ -1,4 +1,4 @@
-package level05;
+package level6;
 
 //В методе main проинициализируй переменные intArray и doubleArray массивами соответствующих типов, размер которых равен 10.
 
