@@ -1,0 +1,19 @@
+package level07;
+
+//Перед тобой программа, которая выводит информацию о человеке в консоли. К сожалению, она не компилируется.
+//Измени минимальное необходимое количество модификаторов доступа в классе Person, чтобы код скомпилировался.
+
+public class Task0610 {
+    public static void main(String[] args) {
+        Person person = new Person("Никита", "Кологривый");
+        System.out.println("Досье.");
+        System.out.println("Имя: " + person.getFirstName());
+        System.out.println("Фамилия: " + person.getLastName());
+        System.out.println("Полное имя: " + person.getFullName());
+
+    }
+
+
+}
+
+
