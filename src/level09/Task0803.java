@@ -1,0 +1,37 @@
+package level09;
+
+import java.util.Scanner;
+
+
+//Минимальный элемент массива
+//
+//В этой задаче тебе нужно:
+//
+//Считать 10 чисел с консоли и заполнить ими массив с помощью метода getArrayOfTenElements().
+//Найти минимальный элемент массива и вернуть этот элемент с помощью метода min(int[]).
+//
+//В методе min(int[]) обязательно используй метод Math.min(int, int).
+
+public class Task0803 {
+    public static void main(String[] args) {
+        int[] intArray = getArrayOfElements();
+        System.out.println(min(intArray));
+    }
+
+    public static int min(int[] ints) {
+        int min = ints[0];
+        for (int i = 1; i < ints.length; i++) {
+            min = Math.min(min, ints[i]);
+        }
+        return min;
+    }
+
+    public static int[] getArrayOfElements() {
+        Scanner console = new Scanner(System.in);
+        int[] array = new int[10];
+        for (int i = 0; i < array.length; i++) {
+            array[i] = console.nextInt();
+        }
+        return array;
+    }
+}
