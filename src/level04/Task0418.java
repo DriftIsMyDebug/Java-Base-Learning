@@ -22,3 +22,5 @@ public class Task0418 {
         console.close();
     }
 }
+
+
