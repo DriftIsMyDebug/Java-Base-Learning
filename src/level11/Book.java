@@ -13,13 +13,39 @@ public class Book {
         this.year = year;
     }
 
+    public String getTitle() {
+        return title;
+    }
+
+    public String getAuthor() {
+        return author;
+    }
+
+    public int getYear() {
+        return year;
+    }
+
+    public void setTitle(String title) {
+        this.title = title;
+    }
+
+    public void setYear(int year) {
+        this.year = year;
+    }
+
+    public void setAuthor(String author) {
+        this.author = author;
+    }
+
+
     @Override
     public boolean equals(Object obj) {
         if (this == obj) return true;
         if (obj == null) return false;
-        if (!(obj instanceof Book book)) return false;
+        if (!(obj instanceof Book book)) return false; // если obj не является экзмепляром Book
         return this.year == book.year && Objects.equals(this.author, book.author) && Objects.equals(this.title, book.title);
     }
+
 
     @Override
     public int hashCode() {
