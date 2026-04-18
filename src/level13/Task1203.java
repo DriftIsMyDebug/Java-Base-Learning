@@ -1,0 +1,17 @@
+package level13;
+
+//В классе Solution есть три поля с одинаковыми значениями. В методе main происходит их сравнение с выводом результата в консоли.
+//Добавь использование метода equals() в методе main такое минимальное количество раз, чтобы вывод был:
+//true true true
+
+public class Task1203 {
+    static Integer first = 1000;
+    static Integer second = 1000;
+    static int third = 1000;
+
+    public static void main(String[] args) {
+        System.out.println(first.equals(second));
+        System.out.println(third == second); // Unboxing достает из объекта значение second...
+        System.out.println(third == first); // Если есть хотя бы один примитив, сравнение всегда идет по значению а не по ссылке...
+    }
+}
