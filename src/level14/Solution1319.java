@@ -1,10 +1,6 @@
 package level14;
 
 public class Solution1319 {
-
-
-
-
     public enum Month {
         JANUARY,
         FEBRUARY,
